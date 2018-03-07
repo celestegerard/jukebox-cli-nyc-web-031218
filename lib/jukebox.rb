@@ -38,7 +38,7 @@ end
 def run(songs)
   puts help
   
-  while users_input.d("exit")
+  while users_input.exclude?("exit")
   puts "Please enter a command:"
   users_input = gets.chomp 
   
