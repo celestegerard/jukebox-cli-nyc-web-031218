@@ -47,14 +47,12 @@ def run(songs)
     puts list
     when "play"
       puts play
-    when "help"
-      puts help
-    when "exit"
-      puts exit_jukebox
-      break
+      when "help"
+        puts help
+        when "exit"
+          puts exit_jukebox
     else 
-      puts "Please enter a command:"
-      users_input = gets.chomp
+      puts "Invalid input, please try again"
     end
   end
 end
