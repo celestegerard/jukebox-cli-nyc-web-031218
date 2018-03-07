@@ -31,12 +31,7 @@ def play(songs)
   songs.each_with_index each do |song, index|
     
     if users_song_choice == "#{song}" || "#{index + 1}"
-      puts "Playing "
     puts "Playing #{song}"
-  else
-    puts "Invalid input, please try again"
-  end
-end
 
 def exit_jukebox
   puts"Goodbye"
