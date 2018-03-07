@@ -60,6 +60,7 @@ def run(songs)
     end
     puts exit_jukebox
   end
+end
 
 
 
