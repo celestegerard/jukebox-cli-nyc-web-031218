@@ -57,11 +57,10 @@ def run(songs)
       else
         puts "Invalid input, please try again"
         user_input = gets.chomp
-    else 
-      puts "Invalid input, please try again"
+      end
     end
+    puts exit_jukebox
   end
-end
 
 
 
