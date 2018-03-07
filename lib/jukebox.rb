@@ -54,8 +54,9 @@ def run(songs)
         puts help
         puts "Please enter a command:"
         users_input = gets.chomp
-        when "exit"
-          puts exit_jukebox
+      else
+        puts "Invalid input, please try again"
+        user_input = gets.chomp
     else 
       puts "Invalid input, please try again"
     end
