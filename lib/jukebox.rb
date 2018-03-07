@@ -35,31 +35,7 @@ end
 
 
 def run(songs)
-  puts help
-  puts "Please enter a command:"
-  users_input = gets.chomp
-  while users_input != "exit"
-  case users_input
-  when "list"
-    puts list
-    puts "Please enter a command:"
-    users_input = gets.chomp
-    when "play"
-      puts play
-      puts "Please enter a command:"
-      users_input = gets.chomp
-      when "help"
-        puts help
-        puts "Please enter a command:"
-        users_input = gets.chomp
-        else
-          puts "Invalid input, please try again"
-          user_input = gets.chomp
-        end
-      end
-    end
-    puts exit_jukebox
-  end
+
 end
 
 
