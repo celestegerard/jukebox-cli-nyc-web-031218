@@ -52,13 +52,15 @@ def run(songs)
     case user_input
     when "help"
       puts help
-      when "list"
-        puts list
-        when "play"
-          puts play
-          when "exit"
-            break
-            end
+    when "list"
+      puts list
+    when "play"
+      puts play
+    when "exit"
+      break
+    end
+  end
+  puts exit_jukebox
 end
 
     
