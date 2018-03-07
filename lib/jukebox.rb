@@ -44,29 +44,22 @@ end
 
 
 def run(songs)
-  puts help
-  
+  help
   loop do
-  puts "Please enter a command:"
-  user_input = gets.chomp
-  
-  while user_input != "exit"
-  case user_input
-  when "help"
-    puts help
     puts "Please enter a command:"
     user_input = gets.chomp
-  when "list"
-    puts list
-    puts "Please enter a command:"
-    user_input = gets.chomp
-  when "play"
-    puts play
-    puts "Please enter a command:"
-    user_input = gets.chomp
-  else
-    puts "Invalid input, please try again"
-    user_input = gets.chomp
+    
+    case user_input
+    when "help"
+      puts help
+      when "list"
+        puts list
+        when "play"
+          puts play
+          when "exit"
+            break
+            end
+end
 
     
   
