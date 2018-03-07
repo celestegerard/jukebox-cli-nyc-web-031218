@@ -36,9 +36,8 @@ end
 
 
 def run(songs)
-  
-puts help 
-puts "Please enter a command:"
+  puts help
+  puts "Please enter a command:"
 users_input = gets.chomp
 
 case users_input 
