@@ -64,6 +64,9 @@ def run(songs)
   else
     puts "Invalid input, please try again"
     user_input = gets.chomp
+  end
+end
+end
     
   
 
