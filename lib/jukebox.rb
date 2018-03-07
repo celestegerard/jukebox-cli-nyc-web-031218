@@ -25,6 +25,7 @@ def list(songs)
 end
 
 def play(songs)
+  puts "Please enter a "
 end
 
 
