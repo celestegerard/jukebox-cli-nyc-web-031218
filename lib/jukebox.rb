@@ -29,7 +29,8 @@ def play(songs)
   users_song_choice = gets.chomp
   
   songs.each_with_index each do |song, index|
-    if users_song_choice.include? == "#{song}"
+    
+    if users_song_choice == "#{song}"
       puts "Playing "
     puts "Playing #{song}"
   else
