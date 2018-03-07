@@ -29,6 +29,7 @@ def play(songs)
   users_song_choice = gets.chomp
   
   songs.each_with_index do |song, index|
+    
     if users_song_choice == song || (index + 1).to_s
       puts "Playing #{song}"
       else
@@ -36,7 +37,7 @@ def play(songs)
       end
     end
   end
-end
+  
 
 
 
