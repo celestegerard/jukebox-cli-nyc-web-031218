@@ -53,7 +53,7 @@ puts help
 puts "Please enter a command:"
 users_input = gets.chomp
 
-  case users_input 
+case users_input 
   when "list"
     puts list
     when "play"
