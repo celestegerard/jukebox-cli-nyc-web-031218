@@ -40,7 +40,7 @@ def run(songs)
   puts "Please enter a command:"
   users_input = gets.chomp 
   
-  while users_input.exclude?("exit")
+  while users_input != "exit"
   puts "Please enter a command:"
   users_input = gets.chomp 
   
