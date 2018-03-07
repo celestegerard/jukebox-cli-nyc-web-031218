@@ -45,6 +45,8 @@ end
 
 def run(songs)
   puts help
+  
+  loop do
   puts "Please enter a command:"
   user_input = gets.chomp
   
